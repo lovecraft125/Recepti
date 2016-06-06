@@ -1,0 +1,305 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#wrapper{
+    background-color: #ccc;
+    font-family: Helvetica;
+}
+/*******HEADER POCETAK********/
+#header{
+    background-color: #333;
+    color:#ddd;
+    overflow: hidden;
+}
+#header>div{
+    float:left;
+    overflow: hidden;
+}
+#logo{
+    padding:5px;
+    padding-left:40px;
+    font-size: 20px
+}
+/**NAVBAR**/
+#navbar{
+    margin-left:150px;
+}
+#navbar>ul{
+    list-style: none;
+    margin:0;
+}
+#navbar>ul>li{
+    float:left;
+}
+#navbar a{
+    display:block;
+    text-decoration: none;
+    color:#ddd;
+    padding:32px 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+#navbar a:hover{
+    background-color: #aaa;
+}
+/**LOGIN DIV**/
+#header>#login{
+    float: right;
+    margin-right:50px;
+}
+#login>ul{
+    margin:0;
+    list-style-type:none;
+}
+#login li{
+    float:left;
+    
+}
+#login>p{
+    float:left;
+    padding:18px;
+}
+#login>p>a{
+    text-decoration: none;
+    display: block;
+    color:#ddd;
+}
+#login>ul a{
+    text-decoration: none;
+    display: block;
+    color:#ddd;
+    padding:25px;
+}
+#login a:hover{
+    color:#aad;
+}
+/*******HEADER KRAJ********/
+/*******MAIN POCETAK*********/
+#main{
+    margin:0 auto;
+    width:1280px;
+    overflow: hidden;
+}
+/***TOP**/
+#top{
+    float:left;
+    background-color: #777;
+    width:700px;
+    border-radius:0 0 10px 10px;
+}
+#top>h1{
+    margin:0;
+    padding: 25px;
+    color:#ddd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+#top>p{
+    padding:20px;
+    color:#ddd;
+    margin-bottom:10px;
+}
+/**SIDEBAR**/
+#sidebar{
+    float:right;
+    width:200px;
+    margin:0 20px;
+    background-color: #333;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#sidebar>ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+#sidebar>ul>li{
+    margin:0;
+    color:#fff;
+    
+}
+#sidebar a{
+    display:block;
+    text-decoration: none;
+    color:#ddd;
+    padding: 8px;
+    
+}
+#sidebar a:last-of-type{
+    border-radius: 0 0 9px 9px;
+}
+#sidebar a:hover{
+    background-color: #ddd;
+    color:#333;
+}
+.cat_head{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+/**CONTENT**/
+#content{
+    padding: 10px;
+    clear: both;
+    min-height: 700px;
+    /*width:700px;*/
+}
+.article{
+    margin-top:30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #999;
+    overflow: hidden;
+    width:500px;
+    float:left;
+}
+.article>h3{
+    margin:0;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding: 10px;
+    color:#333;
+}
+.article>p{
+    padding: 20px;
+    color:white;
+}
+.single{
+    width:700px;
+}
+
+.article>img{
+    width: 200px;
+    height:200px;
+}
+.single>img{
+    float:left;
+    width: 350px;    
+    margin:10px 20px;
+}
+.single>p{
+    text-align: justify;
+    /*float:right;*/
+}
+.view_more{
+    width:100px;
+}
+.view_more a{
+    color: white; 
+    display:block; 
+    padding:5px; 
+    background-color: #1b6d85; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+.date{
+    color:#1b6d85;
+    margin-right:5px;
+}
+.author{
+    float:right;
+}
+/*******KOMENTARI*******/
+#komentari{
+    width:700px;
+    padding:10px;
+    color:#ddd;
+    background-color: #1b6d85;
+    clear: both;
+    margin-bottom: 10px;
+}
+.komentar{
+    padding:10px;
+    margin:5px;
+    background-color:#333;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+.komentar>h4{
+    color:#1b6d85;
+}
+#dodaj_komentar{
+    background-color: #1b6d85;
+    color:#ddd;
+    width:300px;
+    padding:10px;
+    clear: both;
+    
+}
+#dodaj_komentar input[name="submit"]{
+    margin:10px 5px;
+    padding:5px 10px;
+    background-color: #333;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    color:#ddd;
+}
+#dodaj_komentar input[name="submit"]:hover{
+    background-color: #ddd;
+    color:#333;
+    cursor: pointer;
+}
+/*******PAGINACIJA************/
+.pagination{
+    clear:both;
+}
+.pagination>a{
+    text-decoration: none;
+    display: block;
+    float:left;
+    padding:5px;
+    color:#fff;
+    background-color: #1b6d85;
+    margin:5px 10px;
+    border-radius: 3px;
+}
+.pagination>a:hover{
+ background-color:#aaa;   
+}
+/*******FORMA**********/
+#forma{
+    margin-top: 50px;
+    min-width:500px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: #1b6d85;
+    color:#ddd;
+}
+#forma td{
+    padding: 10px;
+}
+#forma td>input{
+    padding:3px;
+}
+#forma td>input[type="submit"]{
+    padding:5px 15px;
+    background-color: #333;
+    color:#ddd;
+    border:1px solid #1c6a8a;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#forma td>input[type="submit"]:hover{
+    background-color: #ddd;
+    color:#333;
+    cursor: pointer;
+}
+/*******MAIN KRAJ*********/
+/*******FOOTER POCETAK*********/
+#footer{
+    background-color:#333;
+    color:#ddd;
+    text-align: center;
+}
+#footer>p{
+    margin:0;
+    padding:20px;
+}
+/*******FOOTER KRAJ**********/
